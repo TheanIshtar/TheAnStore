@@ -1,0 +1,169 @@
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    font-size: 30px;
+}
+
+.send {
+    margin-left: 30px;
+}
+
+.logo__1>span {
+    font-size: 100px;
+    font-family: 'Aclonica';
+    color: #4d6b53;
+    text-align: center;
+}
+
+.logo__1 {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.get {
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 25px;
+}
+
+footer .shop span {
+    float: left;
+    font-size: 50px;
+    font-family: 'Aclonica';
+    color: #cafad4;
+    padding: 20px 0px 0px 70px;
+}
+
+del {
+    color: red;
+    margin-right: 10px;
+}
+
+.km h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/* bostrap */
+
+.shop__1 {
+    width: 20%;
+    height: 100px;
+    justify-items: center;
+}
+
+.shop__1 nav ul li {
+    list-style-type: none;
+}
+
+.shop__1 a {
+    float: left;
+}
+
+.box__icon a:hover {
+    color: #47554a;
+}
+
+.lien__he__3 a:hover {
+    color: #47554a;
+}
+
+.shop__1 a:hover {
+    color: #47554a;
+}
+
+.shop__1 nav {
+    margin-left: 100px;
+}
+
+.shop__1 nav ul li a {
+    font-size: 25px;
+}
+
+.shop__1 nav ul li a {
+    padding: 6px;
+}
+
+.lien__he_1 {
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.lien__he_1 .box__icon i {
+    font-size: 30px;
+    margin: 40px 10px;
+}
+
+.tien__ich {
+    float: right;
+}
+
+footer {
+    display: flex;
+}
+
+.lien__he__3 {
+    float: right;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.lien__he__3 h2,
+h3,
+a {
+    margin: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.slogan {
+    width: 100%;
+    justify-items: center;
+    margin-top: 200px;
+}
+
+.slogan span {
+    color: #04AA6D;
+}
+
+.slogan h3 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+.main {
+    margin-bottom: 490px;
+    text-align: center;
+    padding-top: 500px;
+}
+
+a:hover {
+    color: red;
+}
+
+.main span {
+    color: rgb(36, 124, 14);
+    font-size: 50px;
+}

@@ -1,0 +1,64 @@
+.gioi__thieu {
+    color: rgb(19, 71, 26);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+span {
+    font-size: 40px;
+}
+
+.gioi__thieu h1 {
+    margin-left: 30px;
+}
+
+.gioi__thieu a {
+    font-size: 30px;
+    font-family: 'Aclonica';
+    color: #438150;
+}
+
+.noi_bat {
+    display: block;
+}
+
+.noi_bat>.row>p {
+    text-align: left;
+}
+
+.noi_bat>.row>p>span {
+    border-bottom: 0px solid;
+    font-size: 30px;
+}
+
+.noi_bat .row {
+    margin-top: 40px;
+}
+
+p {
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.td-bando {
+    padding-top: 100px;
+    width: 70%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.td-bando .tieu_de span {
+    color: #40d661;
+}
+
+.content {
+    margin-left: 100px;
+}
+
+.main {
+    padding-top: 300px;
+}

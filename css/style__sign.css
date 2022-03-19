@@ -1,0 +1,111 @@
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+.main {
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+.form_log .tieu_de {
+    font-size: 30px;
+}
+
+.form_log .inp {
+    font-size: 20px;
+}
+
+.form_log {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.slogan span {
+    font-size: 50px;
+    margin: 40px 10px;
+    color: #04AA6D;
+}
+
+.slogan {
+    width: 100%;
+    justify-items: center;
+    margin-top: 200px;
+}
+
+a:hover {
+    color: red;
+}
+
+.slogan h3 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-bottom: 45px;
+}
+
+button {
+    font-size: 20px;
+}
+
+
+/* Full-width input fields */
+
+.container input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.container input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+/* Set a style for the submit button */
+
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+/* Add a blue text color to links */
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
