@@ -3,11 +3,13 @@
 .container {
     padding: 16px;
     background-color: white;
+    /* background-image: linear-gradient(to bottom right, #a6d8f1, #b3e6b8); */
 }
 
 .main {
     padding-top: 15px;
     padding-bottom: 100px;
+    /* background-image: linear-gradient(to bottom right, #67b26f, #4ca2cd); */
 }
 
 .form_log .tieu_de {

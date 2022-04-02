@@ -566,3 +566,62 @@ a {
     margin: 5px;
     font-family: 'Quicksand', sans-serif;
 }
+
+
+/* slide show */
+
+.slider {
+    width: 90%;
+    height: 600px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider #prev,
+.slider #next {
+    border-radius: 5px;
+    position: absolute;
+    width: 40px;
+    font-size: 30px;
+    border: none;
+    background-color: #192041;
+    color: white;
+    top: 50%;
+    cursor: pointer;
+}
+
+.slider #next {
+    left: 94%;
+}
+
+.slider #prev:hover,
+.slider #next:hover {
+    background-color: red;
+}
+
+.item {
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+.item img {
+    width: 100%;
+    height: 600px;
+    animation: cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s ease;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* slide show */
