@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function isEmail(email) {
+            var isValid = false;
+            var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if (regex.test(email)) {
+                isValid = true;
+            }
+            return isValid;
+        }
+
+        function check() {
+            var email = document.getElementById('email__test').value;
+
+            if (isEmail(email)) {
+                alert(email + ' là một địa chỉ email đúng');
+            } else {
+                alert(email + ' là một địa chỉ email sai');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" name="" id="email__test">
+    <button onclick="check()">Submit</button>
+</body>
+
+</html>
