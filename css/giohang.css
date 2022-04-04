@@ -1,0 +1,78 @@
+.cart {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #ddd;
+    padding: 20px;
+}
+
+.cart i .fas.fa-times {
+    cursor: pointer;
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+}
+
+.cart table {
+    width: 100%;
+}
+
+.cart tbody tr td {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart tbody tr td i:hover {
+    color: red;
+}
+
+.cart button {
+    background-color: #379bf1;
+    color: white;
+    text-align: right;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cart button:hover {
+    box-shadow: 0 0 5px #707071;
+}
+
+
+/* Giỏ hàng */
+
+
+/* Cho giỏ hàng xuất hiện bên trái */
+
+.cart {
+    position: fixed;
+    height: 100%;
+    width: 400px;
+    right: 0;
+    top: 90px;
+    background-color: rgb(233, 233, 233);
+    padding: 12px 20px;
+    overflow-y: scroll;
+    right: -100%;
+    transition: all 0.3s ease;
+}
+
+
+/* Cho giỏ hàng xuất hiện bên trái */
+
+.thongtin h3 {
+    font-size: 45px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    color: rgb(33, 102, 15);
+    font-family: 'Aclonica';
+}

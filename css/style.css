@@ -124,6 +124,10 @@ body {
     margin-top: 180px;
 }
 
+#ban_block {
+    margin-top: -100px;
+}
+
 .banner_2 {
     margin-top: -10px;
     margin-bottom: 200px;
@@ -572,9 +576,10 @@ a {
 
 .slider {
     width: 90%;
-    height: 600px;
+    height: 1000px;
     position: relative;
     margin: auto;
+    padding-top: 200px;
     overflow: hidden;
 }
 
@@ -621,6 +626,17 @@ a {
     100% {
         transform: scale(1);
     }
+}
+
+.slider p {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.slider span {
+    font-size: 0px;
+    color: #033606;
 }
 
 
