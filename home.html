@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style_bootstrap.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/giohang.css">
     <script src="js/cart.js"></script>
 
     <script src="https://kit.fontawesome.com/f20d460fd9.js" crossorigin="anonymous"></script>
@@ -47,6 +48,7 @@
                 <li class="cart__1">
                     <a href="cart.html" class="cart-icon"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR5JREFUSEvN1cExBUEUheHvRYAMiAARIAIywJYFIkAEbNgiAmRABIgAESAC6qqeV2PevOmuGqOczSz6zv379JnbMzKwRgP396eAz+TmHZc4+A13dQcVoOq7hru+kLYj2scJbrExBGAWb6nxAl76QKaFHBls9mj8iOV4fxpgCQ89AK+Y7wLEWuxiEdvpqyrhVc6PcZQDbOEigb7tZhTZPSOe4+xygxYzMZPOMxx1qdrQPVarwhzgFHu4QjToUszMSvNIc4AIKmyH5hCO2lTVfaRwx3U5QDS7wXq6OsJRmyLQwzanJYCY5utcwml94nopAdQ/2S7OE2J+fqgUUGhgsqwUcIYdnGO30aZrrfiHU7/Km5vqWisGDO5g8Az+L+ALYZk0GaU3ojwAAAAASUVORK5CYII="
                         /> </a>
+                    <!-- <a class="cart-icon"><i class="fas fa-shopping-cart"> <span>0</span><span>đ</span> </i></a> -->
                 </li>
                 <li>
                     <a href="log.html">Log in</a>
@@ -61,7 +63,6 @@
     <div class="slider">
         <button id="prev" style="margin-left: 30px;"> < </button>
         <button id="next">></button>
-
         <div class="slide-show">
             <div class="item active">
                 <img src="images/5.jpg" alt="">
@@ -80,8 +81,8 @@
             </div>
         </div>
 
-        <p id="title">Ảnh
-            <span id="number">1</span> /
+        <p id="title">
+            <span id="number">1</span> <span> / </span>
             <span id="demo">5</span>
         </p>
     </div>
@@ -90,7 +91,7 @@
 
     <!-- end slide show -->
     <div class="banner">
-        <img src="images/banner/banner_2.jpg" alt="">
+        <img id="ban_block" src="images/banner/banner_2.jpg" alt="">
     </div>
 
     <div class="noi_bat">
@@ -138,395 +139,395 @@
             <h1>New Arrivals</h1>
         </div>
     </div>
-    <div class="proce" id="body1">
-        <div class="hang">
-            <div class="card" id="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <!-- <span class="cart"><i class='bx bx-cart-alt' ></i></span> -->
-                <div class="card__img">
-                    <img src="images/sanpham/balenciaga.png" alt="" />
-                </div>
-                <h2 class="card__title">
-                    Balenciaga 78KC9
-                </h2>
-                <p class="card__price">$99</p>
-                <div class="card__size">
-                    <h3>Size:</h3>
-                    <span>40</span>
-                    <span>41</span>
-                    <span>42</span>
-                    <span>43</span>
-                </div>
-                <div class="card__color">
-                    <h3>Color:</h3>
-                    <span class="green"></span>
-                    <span class="red"></span>
-                    <span class="black"></span>
-                </div>
-                <div class="card__action">
-                    <!-- <button>Buy now</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
+
+    <div class="hang">
+        <div class="card" id="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <!-- <span class="cart"><i class='bx bx-cart-alt' ></i></span> -->
+            <div class="card__img">
+                <img src="images/sanpham/balenciaga.png" alt="" />
             </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/sanpham/vans.png" alt="" />
-                </div>
-                <h2 class="card__title">
-                    Vans Hero 11:11
-                </h2>
-                <p class="card__price">$78</p>
-                <div class="card__size">
-                    <h3>Size:</h3>
-                    <span>38</span>
-                    <span>39</span>
-                    <span>40</span>
-                    <span>41</span>
-                </div>
-                <div class="card__color">
-                    <h3>Color:</h3>
-                    <span class="green"></span>
-                    <span class="blue"></span>
-                    <span class="black"></span>
-                </div>
-                <div class="card__action">
-                    <!-- <button>Buy now</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
+            <h2 class="card__title">
+                Balenciaga 78KC9
+            </h2>
+            <p class="card__price">$99</p>
+            <div class="card__size">
+                <h3>Size:</h3>
+                <span>40</span>
+                <span>41</span>
+                <span>42</span>
+                <span>43</span>
             </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/sanpham/nike12.png" alt="" />
-                </div>
-                <h2 class="card__title">
-                    Nike 12AET
-                </h2>
-                <p class="card__price">$112</p>
-                <div class="card__size">
-                    <h3>Size:</h3>
-                    <span>40</span>
-                    <span>41</span>
-                    <span>42</span>
-                    <span>43</span>
-                </div>
-                <div class="card__color">
-                    <h3>Color:</h3>
-                    <span class="green"></span>
-                    <span class="red"></span>
-                    <span class="black"></span>
-                </div>
-                <div class="card__action">
-                    <!-- <button>Buy now</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
+            <div class="card__color">
+                <h3>Color:</h3>
+                <span class="green"></span>
+                <span class="red"></span>
+                <span class="black"></span>
             </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/sanpham/converse.png" alt="" />
-                </div>
-                <h2 class="card__title">
-                    Converse E1210
-                </h2>
-                <p class="card__price">$71</p>
-                <div class="card__size">
-                    <h3>Size:</h3>
-                    <span>40</span>
-                    <span>42</span>
-                    <span>42</span>
-                    <span>43</span>
-                </div>
-                <div class="card__color">
-                    <h3>Color:</h3>
-                    <span class="gray"></span>
-                    <span class="white"></span>
-                    <span class="black"></span>
-                </div>
-                <div class="card__action">
-                    <!-- <button>Buy now</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
+            <div class="card__action">
+                <!-- <button>Buy now</button> -->
+                <button onclick="them(this)">Add cart</button>
             </div>
         </div>
-        <div class="noi_bat">
-            <div class="row">
-                <p> <span>We bring satisfaction to our customers!</span> </p>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/sanpham/vans.png" alt="" />
+            </div>
+            <h2 class="card__title">
+                Vans Hero 11:11
+            </h2>
+            <p class="card__price">$78</p>
+            <div class="card__size">
+                <h3>Size:</h3>
+                <span>38</span>
+                <span>39</span>
+                <span>40</span>
+                <span>41</span>
+            </div>
+            <div class="card__color">
+                <h3>Color:</h3>
+                <span class="green"></span>
+                <span class="blue"></span>
+                <span class="black"></span>
+            </div>
+            <div class="card__action">
+                <!-- <button>Buy now</button> -->
+                <button onclick="them(this)">Add cart</button>
             </div>
         </div>
-        <div class="banner_2">
-            <img src="images/banner/banner_4.jpg" alt="">
-        </div>
-        <div class="khuyenmai">
-            <div class="km">
-                <h1>Genuine Nike Shoes</h1>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/sanpham/nike12.png" alt="" />
+            </div>
+            <h2 class="card__title">
+                Nike 12AET
+            </h2>
+            <p class="card__price">$112</p>
+            <div class="card__size">
+                <h3>Size:</h3>
+                <span>40</span>
+                <span>41</span>
+                <span>42</span>
+                <span>43</span>
+            </div>
+            <div class="card__color">
+                <h3>Color:</h3>
+                <span class="green"></span>
+                <span class="red"></span>
+                <span class="black"></span>
+            </div>
+            <div class="card__action">
+                <!-- <button>Buy now</button> -->
+                <button onclick="them(this)">Add cart</button>
             </div>
         </div>
-        <div class="hang">
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/sanpham/nike_air_force.png" alt="" />
-                </div>
-                <h2 class="card__title">
-                    Nike Air Force
-                </h2>
-                <p class="card__price">$79</p>
-                <div class="card__size">
-                    <h3>Size:</h3>
-                    <span>40</span>
-                    <span>41</span>
-                    <span>42</span>
-                    <span>43</span>
-                </div>
-                <div class="card__color">
-                    <h3>Color:</h3>
-                    <span class="white"></span>
-                    <span class="gray"></span>
-                    <span class="black"></span>
-                </div>
-                <div class="card__action">
-                    <!-- <button>Buy now</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/sanpham/converse.png" alt="" />
             </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/sanpham/Nike_running_shopes.png" alt="" />
-                </div>
-                <h2 class="card__title">
-                    Nike Running Shopes
-                </h2>
-                <p class="card__price">$67</p>
-                <div class="card__size">
-                    <h3>Size:</h3>
-                    <span>40</span>
-                    <span>41</span>
-                    <span>42</span>
-                    <span>43</span>
-                </div>
-                <div class="card__color">
-                    <h3>Color:</h3>
-                    <span class="green"></span>
-                    <span class="red"></span>
-                    <span class="black"></span>
-                </div>
-                <div class="card__action">
-                    <!-- <button>Buy now</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
+            <h2 class="card__title">
+                Converse E1210
+            </h2>
+            <p class="card__price">$71</p>
+            <div class="card__size">
+                <h3>Size:</h3>
+                <span>40</span>
+                <span>42</span>
+                <span>42</span>
+                <span>43</span>
             </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/sanpham/Nike_shoes_HQ.png" alt="" />
-                </div>
-                <h2 class="card__title">
-                    Nike_shoes_HQ
-                </h2>
-                <p class="card__price">$92</p>
-                <div class="card__size">
-                    <h3>Size:</h3>
-                    <span>40</span>
-                    <span>41</span>
-                    <span>42</span>
-                    <span>43</span>
-                </div>
-                <div class="card__color">
-                    <h3>Color:</h3>
-                    <span class="green"></span>
-                    <span class="red"></span>
-                    <span class="black"></span>
-                </div>
-                <div class="card__action">
-                    <!-- <button>Buy now</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
+            <div class="card__color">
+                <h3>Color:</h3>
+                <span class="gray"></span>
+                <span class="white"></span>
+                <span class="black"></span>
             </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/sanpham/nike_tennis_shoes_volt.png" alt="" />
-                </div>
-                <h2 class="card__title">
-                    Nike Tennis Shoes Volt
-                </h2>
-                <p class="card__price">$99</p>
-                <div class="card__size">
-                    <h3>Size:</h3>
-                    <span>40</span>
-                    <span>41</span>
-                    <span>42</span>
-                    <span>43</span>
-                </div>
-                <div class="card__color">
-                    <h3>Color:</h3>
-                    <span class="green"></span>
-                    <span class="red"></span>
-                    <span class="black"></span>
-                </div>
-                <div class="card__action">
-                    <!-- <button>Buy now</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
+            <div class="card__action">
+                <!-- <button>Buy now</button> -->
+                <button onclick="them(this)">Add cart</button>
             </div>
         </div>
-        <div class="khuyenmai">
-            <div class="km">
-                <h1>Free accessories</h1>
-                <div class="phu_kien">
-                    <div class="noi_bat">
-                        <div class="row">
-                            <p><span>When purchasing the product, you can choose the accessories that come with it!</span> </p>
-                        </div>
+    </div>
+    <div class="noi_bat">
+        <div class="row">
+            <p> <span>We bring satisfaction to our customers!</span> </p>
+        </div>
+    </div>
+    <div class="banner_2">
+        <img src="images/banner/banner_4.jpg" alt="">
+    </div>
+    <div class="khuyenmai">
+        <div class="km">
+            <h1>Genuine Nike Shoes</h1>
+        </div>
+    </div>
+    <div class="hang">
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/sanpham/nike_air_force.png" alt="" />
+            </div>
+            <h2 class="card__title">
+                Nike Air Force
+            </h2>
+            <p class="card__price">$79</p>
+            <div class="card__size">
+                <h3>Size:</h3>
+                <span>40</span>
+                <span>41</span>
+                <span>42</span>
+                <span>43</span>
+            </div>
+            <div class="card__color">
+                <h3>Color:</h3>
+                <span class="white"></span>
+                <span class="gray"></span>
+                <span class="black"></span>
+            </div>
+            <div class="card__action">
+                <!-- <button>Buy now</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/sanpham/Nike_running_shopes.png" alt="" />
+            </div>
+            <h2 class="card__title">
+                Nike Running Shopes
+            </h2>
+            <p class="card__price">$67</p>
+            <div class="card__size">
+                <h3>Size:</h3>
+                <span>40</span>
+                <span>41</span>
+                <span>42</span>
+                <span>43</span>
+            </div>
+            <div class="card__color">
+                <h3>Color:</h3>
+                <span class="green"></span>
+                <span class="red"></span>
+                <span class="black"></span>
+            </div>
+            <div class="card__action">
+                <!-- <button>Buy now</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/sanpham/Nike_shoes_HQ.png" alt="" />
+            </div>
+            <h2 class="card__title">
+                Nike_shoes_HQ
+            </h2>
+            <p class="card__price">$92</p>
+            <div class="card__size">
+                <h3>Size:</h3>
+                <span>40</span>
+                <span>41</span>
+                <span>42</span>
+                <span>43</span>
+            </div>
+            <div class="card__color">
+                <h3>Color:</h3>
+                <span class="green"></span>
+                <span class="red"></span>
+                <span class="black"></span>
+            </div>
+            <div class="card__action">
+                <!-- <button>Buy now</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/sanpham/nike_tennis_shoes_volt.png" alt="" />
+            </div>
+            <h2 class="card__title">
+                Nike Tennis Shoes Volt
+            </h2>
+            <p class="card__price">$99</p>
+            <div class="card__size">
+                <h3>Size:</h3>
+                <span>40</span>
+                <span>41</span>
+                <span>42</span>
+                <span>43</span>
+            </div>
+            <div class="card__color">
+                <h3>Color:</h3>
+                <span class="green"></span>
+                <span class="red"></span>
+                <span class="black"></span>
+            </div>
+            <div class="card__action">
+                <!-- <button>Buy now</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="khuyenmai">
+        <div class="km">
+            <h1>Free accessories</h1>
+            <div class="phu_kien">
+                <div class="noi_bat">
+                    <div class="row">
+                        <p><span>When purchasing the product, you can choose the accessories that come with it!</span> </p>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="hang">
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/tat/tat_meoww.png" alt="" />
-                </div>
-                <h2 class="card__title">Tất BLINK siêu cute</h2>
-                <p class="card__price"> <del>$29</del> $0</p>
-
-                <div class="card__action">
-                    <!-- <button>Free</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/tat/tat_nice_day.png" alt="" />
-                </div>
-                <h2 class="card__title">Tất in hình cute</h2>
-                <p class="card__price"> <del>$29</del> $0</p>
-
-                <div class="card__action">
-                    <!-- <button>Free</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/tat/tat_co_canh_thien_than.png" alt="" />
-                </div>
-                <h2 class="card__title">Tất có cánh</h2>
-                <p class="card__price"> <del>$29</del> $0</p>
-
-                <div class="card__action">
-                    <!-- <button>Free</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/tat/tat_cau_vong.png" alt="" />
-                </div>
-                <h2 class="card__title">Tất in hình cầu vồng</h2>
-                <p class="card__price"> <del>$29</del> $0</p>
-
-                <div class="card__action">
-                    <!-- <button>Free</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="khuyenmai">
-            <div class="km">
-                <h1>Other accessories included</h1>
-                <div class="phu_kien">
-                    <div class="noi_bat">
-                        <div class="row">
-                            <p><span>Accessories for orders NIKE sneakers</span> </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hang">
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/tat/mu_luoi_trai_nike.png" alt="" />
-                </div>
-                <h2 class="card__title">Mũ lưỡi trai NIKE</h2>
-                <p class="card__price"> <del>$45</del> $0</p>
-
-                <div class="card__action">
-                    <!-- <button>Free</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/tat/khau_trang_NeoMask.png" alt="" />
-                </div>
-                <h2 class="card__title">Khẩu trang NeoMask</h2>
-                <p class="card__price"> <del>$12</del> $0</p>
-
-                <div class="card__action">
-                    <!-- <button>Free</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <div class="card__img__kinh">
-                        <img src="images/tat/mat_kinh_nike.png" alt="" />
-                    </div>
-                </div>
-                <h2 class="card__title">Mắt kính Elleman</h2>
-                <p class="card__price"> <del>$29</del> $0</p>
-
-                <div class="card__action">
-                    <!-- <button>Free</button> -->
-                    <button onclick="them(this)">Add cart</button>
-                </div>
-            </div>
-            <div class="card">
-                <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
-                <span class="cart"><i class='bx bx-cart-alt' ></i></span>
-                <div class="card__img">
-                    <img src="images/tat/khau_trang_adidas.png" alt="" />
-                </div>
-                <h2 class="card__title">Khẩu trang Adidas</h2>
-                <p class="card__price"> <del>$5</del> $10</p>
-                <div class="card__action">
-                    <!-- <button>Free</button> -->
-                    <button onclick="them(this)">Add cart</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="hang">
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/tat/tat_meoww.png" alt="" />
+            </div>
+            <h2 class="card__title">Tất BLINK siêu cute</h2>
+            <p class="card__price"> <del>$29</del> $0</p>
+
+            <div class="card__action">
+                <!-- <button>Free</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/tat/tat_nice_day.png" alt="" />
+            </div>
+            <h2 class="card__title">Tất in hình cute</h2>
+            <p class="card__price"> <del>$29</del> $0</p>
+
+            <div class="card__action">
+                <!-- <button>Free</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/tat/tat_co_canh_thien_than.png" alt="" />
+            </div>
+            <h2 class="card__title">Tất có cánh</h2>
+            <p class="card__price"> <del>$29</del> $0</p>
+
+            <div class="card__action">
+                <!-- <button>Free</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/tat/tat_cau_vong.png" alt="" />
+            </div>
+            <h2 class="card__title">Tất in hình cầu vồng</h2>
+            <p class="card__price"> <del>$29</del> $0</p>
+
+            <div class="card__action">
+                <!-- <button>Free</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="khuyenmai">
+        <div class="km">
+            <h1>Other accessories included</h1>
+            <div class="phu_kien">
+                <div class="noi_bat">
+                    <div class="row">
+                        <p><span>Accessories for orders NIKE sneakers</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hang">
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/tat/mu_luoi_trai_nike.png" alt="" />
+            </div>
+            <h2 class="card__title">Mũ lưỡi trai NIKE</h2>
+            <p class="card__price"> <del>$45</del> $0</p>
+
+            <div class="card__action">
+                <!-- <button>Free</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/tat/khau_trang_NeoMask.png" alt="" />
+            </div>
+            <h2 class="card__title">Khẩu trang NeoMask</h2>
+            <p class="card__price"> <del>$12</del> $0</p>
+
+            <div class="card__action">
+                <!-- <button>Free</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <div class="card__img__kinh">
+                    <img src="images/tat/mat_kinh_nike.png" alt="" />
+                </div>
+            </div>
+            <h2 class="card__title">Mắt kính Elleman</h2>
+            <p class="card__price"> <del>$29</del> $0</p>
+
+            <div class="card__action">
+                <!-- <button>Free</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <span class="like"><i class='bx bx-heart'></i></span> -->
+            <span class="cart"><i class='bx bx-cart-alt' ></i></span>
+            <div class="card__img">
+                <img src="images/tat/khau_trang_adidas.png" alt="" />
+            </div>
+            <h2 class="card__title">Khẩu trang Adidas</h2>
+            <p class="card__price"> <del>$5</del> $10</p>
+            <div class="card__action">
+                <!-- <button>Free</button> -->
+                <button onclick="them(this)">Add cart</button>
+            </div>
+        </div>
+
+    </div>
     <!-- Giỏ hàng -->
     <div class="vohang">
         <div class="thongtin">
-            <h3  id="empty">  Giỏ hàng</h3>
+            <h3 id="empty">SHOPPING CART</h3>
             <div id="not-empty" style="display:none;"></div>
             <p id="cart"></p>
         </div>
@@ -536,6 +537,7 @@
     </div>
     <!-- Giỏ hàng -->
 
+    <script src="js/cart.js"></script>
     <footer>
         <div class="shop">
             <div class="shop__1">
